@@ -27,14 +27,14 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__ServiceConsole</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>standard__Marketing</application>
         <default>false</default>
         <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__ServiceConsole</application>
+        <default>false</default>
+        <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Chatter</application>
@@ -47,12 +47,12 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__SalesforceCMS</application>
+        <application>standard__LightningBolt</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__LightningBolt</application>
+        <application>standard__SalesforceCMS</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
@@ -82,12 +82,12 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__Sites</application>
+        <application>standard__LightningSales</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__LightningSales</application>
+        <application>standard__Sites</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
@@ -102,14 +102,14 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__Sales</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>standard__AllTabSet</application>
         <default>true</default>
         <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Sales</application>
+        <default>false</default>
+        <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
         <apexClass>TemperatureConverter</apexClass>
@@ -3726,25 +3726,25 @@
         <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Seller-Seller Layout</layout>
+        <layout>CartTax-Cart Tax Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>CartTax-Cart Tax Layout</layout>
+        <layout>Seller-Seller Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>WebCart-Cart Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Shift-Shift Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>ContactPointTypeConsent-Contact Point Type Consent Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ReturnOrderLineItem-Return Order Line Item Layout</layout>
+        <layout>Shift-Shift Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>FinanceTransaction-Finance Transaction Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ReturnOrderLineItem-Return Order Line Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AssetRelationship-Asset Relationship Layout</layout>
@@ -3768,10 +3768,10 @@
         <layout>EntityMilestone-Object Milestone Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WorkPlan-Work Plan Layout</layout>
+        <layout>AssetAction-Asset Action Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>AssetAction-Asset Action Layout</layout>
+        <layout>WorkPlan-Work Plan Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserProvisioningLog-User Provisioning Log Layout</layout>
@@ -3804,46 +3804,46 @@
         <layout>ApiAnomalyEventStore-API Anomaly Event Store Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>PaymentAuthAdjustment-Payment Authorization Adjustment Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>AuthorizationFormDataUse-Authorization Form Data Use Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Waitlist-%5F%5FMISSING LABEL%5F%5F PropertyFile - val Waitlist not found in section StandardLayouts</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ShiftWorkTopic-%5F%5FMISSING LABEL%5F%5F PropertyFile - val ShiftWorkTopic not found in section StandardLayouts</layout>
+        <layout>PaymentAuthAdjustment-Payment Authorization Adjustment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ReturnOrderItemTax-Return Order Item Tax Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>UserProvAccount-User Provisioning Account Layout</layout>
+        <layout>ShiftWorkTopic-%5F%5FMISSING LABEL%5F%5F PropertyFile - val ShiftWorkTopic not found in section StandardLayouts</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ProcessException-Process Exception Layout</layout>
+        <layout>Waitlist-%5F%5FMISSING LABEL%5F%5F PropertyFile - val Waitlist not found in section StandardLayouts</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvAccount-User Provisioning Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CLI_test_obj__c-CLI test obj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WorkOrder-Work Order Layout</layout>
+        <layout>ProcessException-Process Exception Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WorkPlanTemplateEntry-Work Plan Template Entry Layout</layout>
+        <layout>WorkOrder-Work Order Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CartCheckoutSession-Cart Checkout Session Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>WorkPlanTemplateEntry-Work Plan Template Entry Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ThreatDetectionFeedback-Threat Detection Feedback Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SessionHijackingEventStore-Session Hijacking Event Store Layout</layout>
+        <layout>CreditMemoInvApplication-Credit Memo Invoice Application Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>CreditMemoInvApplication-Credit Memo Invoice Application Layout</layout>
+        <layout>SessionHijackingEventStore-Session Hijacking Event Store Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
@@ -3865,10 +3865,10 @@
         <layout>WorkOrderLineItem-Work Order Line Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>LegalEntity-Legal Entity Layout</layout>
+        <layout>AppointmentInvitation-Appointment Invitation Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>AppointmentInvitation-Appointment Invitation Layout</layout>
+        <layout>LegalEntity-Legal Entity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ReturnOrder-Return Order Layout</layout>
@@ -3901,19 +3901,19 @@
         <layout>BusinessBrand-Business Brand Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
+        <layout>ServiceContract-Service Contract Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ServiceContract-Service Contract Layout</layout>
+        <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CaseMilestone-Case Milestone Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WebCartAdjustmentBasis-Cart Adjustment Basis Layout</layout>
+        <layout>AssetStatePeriod-Asset State Period Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>AssetStatePeriod-Asset State Period Layout</layout>
+        <layout>WebCartAdjustmentBasis-Cart Adjustment Basis Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkStep-Work Step Layout</layout>
@@ -3946,7 +3946,7 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
-        <object>QuickText</object>
+        <object>EntitlementContact</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -3955,7 +3955,7 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
-        <object>EntitlementContact</object>
+        <object>QuickText</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -3982,11 +3982,11 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-PartyConsent</tab>
+        <tab>standard-Contact</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Contact</tab>
+        <tab>standard-PartyConsent</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4014,11 +4014,11 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-ContactPointConsent</tab>
+        <tab>standard-BusinessBrand</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-BusinessBrand</tab>
+        <tab>standard-ContactPointConsent</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4042,11 +4042,11 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-DataUsePurpose</tab>
+        <tab>standard-AssetAction</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-AssetAction</tab>
+        <tab>standard-DataUsePurpose</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4070,19 +4070,19 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-InventoryItemReservation</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Case</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-PaymentAuthAdjustment</tab>
+        <tab>standard-InventoryItemReservation</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Individual</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-PaymentAuthAdjustment</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4122,11 +4122,11 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Solution</tab>
+        <tab>standard-AuthorizationFormDataUse</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-AuthorizationFormDataUse</tab>
+        <tab>standard-Solution</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4146,19 +4146,19 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Image</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-ContentSearch</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Coupon</tab>
+        <tab>standard-Image</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ContentSubscriptions</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Coupon</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4186,11 +4186,11 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Pricebook2</tab>
+        <tab>standard-Payment</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Payment</tab>
+        <tab>standard-Pricebook2</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4210,11 +4210,11 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-UserProvisioningRequest</tab>
+        <tab>standard-ContractLineItem</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-ContractLineItem</tab>
+        <tab>standard-UserProvisioningRequest</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4222,11 +4222,11 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-JigsawSearch</tab>
+        <tab>standard-FinanceBalanceSnapshot</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-FinanceBalanceSnapshot</tab>
+        <tab>standard-JigsawSearch</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4238,11 +4238,11 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-LocationGroup</tab>
+        <tab>standard-AuthorizationForm</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-AuthorizationForm</tab>
+        <tab>standard-LocationGroup</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4254,11 +4254,11 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-DandBCompany</tab>
+        <tab>standard-ConsumptionSchedule</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-ConsumptionSchedule</tab>
+        <tab>standard-DandBCompany</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4278,11 +4278,11 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-ServiceContract</tab>
+        <tab>standard-CommSubscription</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-CommSubscription</tab>
+        <tab>standard-ServiceContract</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4330,15 +4330,15 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-WorkPlanTemplate</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Chatter</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-WorkType</tab>
+        <tab>standard-WorkPlanTemplate</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Macro</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4346,7 +4346,7 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Macro</tab>
+        <tab>standard-WorkType</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4358,11 +4358,11 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Entitlement</tab>
+        <tab>standard-CommSubscriptionConsent</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-CommSubscriptionConsent</tab>
+        <tab>standard-Entitlement</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4374,11 +4374,11 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Refund</tab>
+        <tab>standard-ProductCategory</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-ProductCategory</tab>
+        <tab>standard-Refund</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4402,11 +4402,11 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-File</tab>
+        <tab>standard-AppLauncher</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-AppLauncher</tab>
+        <tab>standard-File</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
