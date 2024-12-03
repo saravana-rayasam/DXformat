@@ -7,4 +7,11 @@
         <shortDescription>Testing rollback</shortDescription>
         <value>SFDX</value>
     </labels>
+    <labels>
+        <fullName>test1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>test1</shortDescription>
+        <value>test12</value>
+    </labels>
 </CustomLabels>
