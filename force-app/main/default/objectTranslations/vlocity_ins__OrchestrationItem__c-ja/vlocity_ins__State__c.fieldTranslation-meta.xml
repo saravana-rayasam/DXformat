@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- State --></label>
+    <name>vlocity_ins__State__c</name>
+    <picklistValues>
+        <masterLabel>Amended</masterLabel>
+        <translation>修正済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canceled</masterLabel>
+        <translation>キャンセル済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed</masterLabel>
+        <translation>完了</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discarded</masterLabel>
+        <translation>破棄済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Failed</masterLabel>
+        <translation>失敗</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Failed Discarded</masterLabel>
+        <translation>失敗して破棄済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fatally Failed</masterLabel>
+        <translation>致命的な失敗</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frozen</masterLabel>
+        <translation>凍結</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frozen - Failed</masterLabel>
+        <translation>フリーズ済み - 失敗</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frozen - Fatally Failed</masterLabel>
+        <translation>フリーズ済み - 致命的な失敗</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frozen - Running</masterLabel>
+        <translation>フリーズ済み - 実行中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Hold</masterLabel>
+        <translation>保留中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending</masterLabel>
+        <translation>保留中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ready</masterLabel>
+        <translation>準備完了</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Running</masterLabel>
+        <translation>実行中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scheduled</masterLabel>
+        <translation>スケジュール済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skipped</masterLabel>
+        <translation>スキップ済み</translation>
+    </picklistValues>
+</CustomFieldTranslation>

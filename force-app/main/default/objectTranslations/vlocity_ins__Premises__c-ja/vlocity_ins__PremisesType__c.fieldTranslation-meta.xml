@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Premises Type --></label>
+    <name>vlocity_ins__PremisesType__c</name>
+    <picklistValues>
+        <masterLabel>Apartment Building</masterLabel>
+        <translation>アパート</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commercial Building</masterLabel>
+        <translation>商業ビル</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Condominium</masterLabel>
+        <translation>分譲マンション</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duplex</masterLabel>
+        <translation>メゾネット</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Floor</masterLabel>
+        <translation>フロア</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Floor Section</masterLabel>
+        <translation>フロアセクション</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>vlocity_ins__Status__c</name>
+    <picklistValues>
+        <masterLabel>Connected</masterLabel>
+        <translation>接続済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inactive</masterLabel>
+        <translation>無効</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Install in Progress</masterLabel>
+        <translation>設置中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Planned</masterLabel>
+        <translation>計画済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vacant</masterLabel>
+        <translation>空き</translation>
+    </picklistValues>
+</CustomFieldTranslation>

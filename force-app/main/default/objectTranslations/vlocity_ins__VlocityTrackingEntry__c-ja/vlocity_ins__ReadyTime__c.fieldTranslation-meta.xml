@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- For Omniscript, Omniscript Step or Card, time at which the UI component is fully rendered and ready. For action this denotes the time at which the action is finished executing --></help>
+    <label><!-- Ready Time --></label>
+    <name>vlocity_ins__ReadyTime__c</name>
+</CustomFieldTranslation>

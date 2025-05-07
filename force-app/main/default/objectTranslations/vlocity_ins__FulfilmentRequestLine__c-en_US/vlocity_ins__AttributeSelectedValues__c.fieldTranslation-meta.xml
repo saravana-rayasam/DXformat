@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field is used when JSONAttribute V2 feature is turned on. It contains the attribute values of this line item encoded in a JSON format. Please refer to documentation for the format of the JSON. --></help>
+    <label><!-- Attribute Selected Values --></label>
+    <name>vlocity_ins__AttributeSelectedValues__c</name>
+</CustomFieldTranslation>

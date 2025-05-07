@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If Rating Procedure Type is Calculation Procedure, fill in calculation procedure Name. If Rating Procedure Type is Integration Procedure, fill in integration procedure Type_Subtype. --></help>
+    <label><!-- Rating Procedure Name --></label>
+    <name>vlocity_ins__RatingCalcProcedureName__c</name>
+</CustomFieldTranslation>

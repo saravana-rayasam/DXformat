@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>価格設定要素</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Console Admin Search --></label>
+        <name>vlocity_ins__ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Price List Pricing Elements --></label>
+        <name>vlocity_ins__PriceListPricingElements</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Pricing Elements --></label>
+        <name>vlocity_ins__ProductPricingElements</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Promotion Pricing Elements --></label>
+        <name>vlocity_ins__PromotionPricingElements</name>
+    </fieldSets>
+    <nameFieldLabel>名前</nameFieldLabel>
+</CustomObjectTranslation>

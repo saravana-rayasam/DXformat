@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Defines Omni Data Transformation (Load type) for attributes of response payload provided by an external system via an integration adapter. --></help>
+    <label><!-- Response Attrs Omni Data Transform Name --></label>
+    <name>vlocity_ins__ResponseAttrsOmniDataTransformName__c</name>
+</CustomFieldTranslation>

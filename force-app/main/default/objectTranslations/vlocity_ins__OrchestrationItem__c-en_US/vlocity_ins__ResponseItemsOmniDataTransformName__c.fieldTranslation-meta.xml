@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Defines Omni Data Transformation (Load type) for order item nodes of response payload provided by an external system via an integration adapter. Node name is defined in Order Items Node Name field. --></help>
+    <label><!-- Response Items Omni Data Transform Name --></label>
+    <name>vlocity_ins__ResponseItemsOmniDataTransformName__c</name>
+</CustomFieldTranslation>

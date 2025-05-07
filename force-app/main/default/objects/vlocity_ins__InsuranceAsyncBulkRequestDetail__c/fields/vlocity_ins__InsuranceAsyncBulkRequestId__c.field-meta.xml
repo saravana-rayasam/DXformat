@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ins__InsuranceAsyncBulkRequestId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The insurance async bulk request associated with the item.</description>
+    <label>Insurance Async Request</label>
+    <referenceTo>vlocity_ins__InsuranceAsyncBulkRequest__c</referenceTo>
+    <relationshipLabel>Insurance Async Bulk Request Details</relationshipLabel>
+    <relationshipName>InsuranceAsyncBulkRequestDetails</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

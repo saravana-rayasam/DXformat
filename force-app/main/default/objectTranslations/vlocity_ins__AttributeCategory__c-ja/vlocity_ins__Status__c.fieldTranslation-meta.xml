@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>vlocity_ins__Status__c</name>
+    <picklistValues>
+        <masterLabel>Draft</masterLabel>
+        <translation>ドラフト</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Obsolete</masterLabel>
+        <translation>不用</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-Production</masterLabel>
+        <translation>試作</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Production</masterLabel>
+        <translation>生産</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retired</masterLabel>
+        <translation>廃止</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Test</masterLabel>
+        <translation>テスト</translation>
+    </picklistValues>
+</CustomFieldTranslation>

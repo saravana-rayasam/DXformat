@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Update class level attributes to all the products that inherited this class.</description>
+    <height>300</height>
+    <label>Update Products</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <page>vlocity_ins__InsuranceProductPushAttribute</page>
+    <type>VisualforcePage</type>
+    <width>-100</width>
+</QuickAction>

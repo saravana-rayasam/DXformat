@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This denotes the tracking data endpoint for the current group. --></help>
+    <label><!-- Tracking Group Type --></label>
+    <name>vlocity_ins__Type__c</name>
+    <picklistValues>
+        <masterLabel>Internal</masterLabel>
+        <translation><!-- Internal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Web</masterLabel>
+        <translation><!-- Web --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

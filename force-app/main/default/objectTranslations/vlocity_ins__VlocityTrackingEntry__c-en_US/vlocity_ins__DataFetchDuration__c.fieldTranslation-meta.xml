@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Time difference between Data Request End Time and Data Request Start Time in Milliseconds --></help>
+    <label><!-- Data Fetch Duration --></label>
+    <name>vlocity_ins__DataFetchDuration__c</name>
+</CustomFieldTranslation>

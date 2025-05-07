@@ -1,0 +1,332 @@
+<apex:page controller="vlocity_ins.LegalBannerController">
+    <apex:includeLightning />
+    <apex:slds />
+    <html xmlns:ng="http://angularjs.org" lang="en">
+        <head>
+            <meta charset="utf-8"/>
+            <apex:stylesheet value="{!URLFOR($Resource.vlocity_ins__slds, '/assets/styles/salesforce-lightning-design-system-vf.min.css')}"/>
+        </head>
+        <style>
+            .hide {
+                display: none !important;
+            }    
+            .show {
+                display: block;
+            }    
+        </style>
+        <script type="text/javascript">
+
+            function openModal() {
+                document.getElementById('termsAndCondition').style.display = 'block';
+                document.getElementById('backdrop').style.display = 'block';
+                document.addEventListener('keydown', closeOnEsc);
+                trapFocus(document.getElementById('termsAndCondition'));
+            }
+    
+            function closeModal() {
+                document.getElementById('termsAndCondition').style.display = 'none';
+                document.getElementById('backdrop').style.display = 'none';
+            }
+            function openDeclineConfirmation() {
+                document.getElementById('termsAndConditionDisagreeConfirm').style.display = 'block';
+                document.getElementById('confirmBackdrop').style.display = 'block';
+                document.removeEventListener('keydown', closeOnEsc);
+                document.addEventListener('keydown', closeOnEscConfirmModal);
+                document.getElementById('termsAndCondition').style.pointerEvents = 'none';
+                trapFocus(document.getElementById('termsAndConditionDisagreeConfirm'));
+            }
+            function closeDeclineConfirmModal() {
+                document.getElementById('termsAndConditionDisagreeConfirm').style.display = 'none';
+                document.getElementById('confirmBackdrop').style.display = 'none';
+                document.addEventListener('keydown', closeOnEsc);
+                document.getElementById('termsAndCondition').style.pointerEvents = 'auto';
+                trapFocus(document.getElementById('termsAndCondition'));
+            }
+            function closeOnEsc(event) {
+                if (event.key === 'Escape' || event.keyCode === 27) {
+                    closeModal();
+                }
+            }
+            function closeOnEscConfirmModal(event) {
+                if (event.key === 'Escape' || event.keyCode === 27) {
+                    closeDeclineConfirmModal();
+                }
+            }
+            function openAgreeConfirmation() {
+                document.getElementById('termsAndConditionConfirm').style.display = 'block';
+                document.getElementById('confirmBackdrop').style.display = 'block';
+                document.removeEventListener('keydown', closeOnEsc);
+                document.addEventListener('keydown', closeOnEscAgreeConfirmModal);
+                document.getElementById('termsAndCondition').style.pointerEvents = 'none';
+                trapFocus(document.getElementById('termsAndConditionConfirm'));
+            }
+            function closeAgreeConfirmModal() {
+                document.getElementById('termsAndConditionConfirm').style.display = 'none';
+                document.getElementById('confirmBackdrop').style.display = 'none';
+                document.addEventListener('keydown', closeOnEsc);
+                document.getElementById('termsAndCondition').style.pointerEvents = 'auto';
+                trapFocus(document.getElementById('termsAndCondition'));
+            }
+            function closeOnEscAgreeConfirmModal(event) {
+                if (event.key === 'Escape' || event.keyCode === 27) {
+                    closeAgreeConfirmModal();
+                }
+            }
+            //Trap the focus to the top most open modal
+            function trapFocus(modal) {
+                const focusableElements = modal.querySelectorAll('button');
+                const firstElement = focusableElements[0];
+                const lastElement = focusableElements[focusableElements.length - 1];
+
+                modal.addEventListener('keydown', function(e) {
+                    if (e.key === 'Tab') {
+                        if (e.shiftKey) {
+                            // Shift+Tab
+                            if (document.activeElement === firstElement) {
+                                e.preventDefault();
+                                lastElement.focus();
+                            }
+                        } else {
+                            // Tab
+                            if (document.activeElement === lastElement) {
+                                e.preventDefault();
+                                firstElement.focus();
+                            }
+                        }
+                    }
+                });
+            // Set focus to the modal when it opens
+            firstElement.focus();
+        }
+        function acceptTerm() {
+            callUpdateBannerResponse('Yes');
+            closeAgreeConfirmModal();
+            closeModal();
+            showSuccessMessage("Accepted");
+        }
+        function declineTerm() {
+            callUpdateBannerResponse('No');
+            closeDeclineConfirmModal();
+            closeModal();
+            showSuccessMessage("Declined");
+        }
+        function showToast(message) {
+            var toast;
+            if (message === "Accepted") {
+                toast = document.getElementById("toastContainer");
+            } else {
+                toast = document.getElementById("toastContainerError");
+            }
+            toast.className = "show";
+            setTimeout(function() {
+                toast.className = toast.className.replace("show", "hide");
+            }, 3000);
+        }
+
+        function showSuccessMessage(status) {
+            showToast(status);
+        }
+        </script>
+            <apex:outputPanel rendered="{!isSystemAdmin}">
+                <div id="toastContainer" class="hide">
+                    <div class="slds-notify_container">
+                        <div class="slds-notify slds-notify_toast slds-theme_success" role="status">
+                            <span class="slds-assistive-text">success</span>
+                            <span class="slds-icon_container slds-icon-utility-success slds-m-right_small slds-no-flex slds-align-top" title="success">
+                            <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/utility-sprite/svg/symbols.svg#success')}" />
+                            </svg>
+                            </span>
+                            <div class="slds-notify__content">
+                                <h2 class="slds-text-heading_small">{!JSENCODE($Label.DocumentGenerationAcceptToast)}</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="toastContainerError" class="hide">
+                    <div class="slds-notify_container">
+                        <div class="slds-notify slds-notify_toast slds-theme_error" role="status">
+                            <span class="slds-assistive-text">Error</span>
+                            <span class="slds-icon_container slds-icon-utility-error slds-m-right_small slds-no-flex slds-align-top" title="error">
+                            <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/utility-sprite/svg/symbols.svg#error')}" />
+                            </svg>
+                            </span>
+                            <div class="slds-notify__content">
+                                <h2 class="slds-text-heading_small">{!JSENCODE($Label.vlocity_ins__DocumentGenerationDeclineToast)}</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <apex:outputPanel rendered="{!isDocgenEnabled}">
+                    <div class="bPageTitle">
+                        <div class="ptBody secondaryPalette brandSecondaryBrd">
+                            <div class="content slds-grid">
+                                <span class="slds-icon_container slds-icon-standard-account slds-icon_container_circle slds-m-right_small slds-no-flex slds-align-middle"  style="padding:0;">
+                                    <svg class="slds-icon">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/standard-sprite/svg/symbols.svg#contract')}" />
+                                    </svg>
+                                </span>
+                                <div>
+                                    <h1 class="pageType" style="margin-left:0;">{!JSENCODE($Label.vlocity_ins__DocumentGenerationPageLabel)}</h1>
+                                    <h2 class="pageDescription" style="margin-left:0;">{!JSENCODE($Label.vlocity_ins__DocumentGenerationLegalAgreement)}</h2>
+                                    <h3 class="pageTitle" style="margin-left:0;margin-top:0.2rem;">{!JSENCODE($Label.vlocity_ins__DocumentGenerationLegalAgreementDesc)}</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Table structure for Banners -->
+                    <apex:outputPanel id="bannerTable" rendered="{!isSystemAdmin}">
+                        <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+                            <thead>
+                                <tr style="background-color: #f4f4f4;">
+                                    <th>{!JSENCODE($Label.vlocity_ins__Name)}</th>
+                                    <th>{!JSENCODE($Label.vlocity_ins__Status)}</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="javascript:void(0);" onclick="openModal()">{!JSENCODE($Label.vlocity_ins__DocumentGenerationNotice)}</a>
+                                    </td>
+                                    <td>
+                                        <apex:outputText value="{!legalBannerResponse}" />
+                                    </td>                            
+                                </tr>
+                            </tbody>
+                        </table>
+                    </apex:outputPanel>
+                </apex:outputPanel>    
+                <apex:outputPanel rendered="{!NOT(isDocgenEnabled)}">
+                    <div class="bPageTitle">
+                        <div class="ptBody secondaryPalette brandSecondaryBrd">
+                            <div class="slds-grid">
+                                <h2 style="margin-top:1rem;">
+                                    {!JSENCODE($Label.vlocity_ins__DocumentGenerationDocgenDisabledMessage)}
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </apex:outputPanel>
+            </apex:outputPanel>
+            <apex:outputPanel rendered="{!NOT(isSystemAdmin)}">
+                <div class="slds-p-top_medium slds-p-left_medium">
+                    <span style="font-weight: bold; font-size: 12pt;">{!JSENCODE($Label.vlocity_ins__DocumentGenerationsInsufficientPrivilegesError)}</span>
+                    <div>{!JSENCODE($Label.vlocity_ins__DocumentGenerationDocgenNoAccessError)}</div>
+                </div>
+            </apex:outputPanel>
+            <!-- Terms and Conditions Modal -->
+            <section role="dialog" tabindex="-1" aria-modal="true" aria-labelledby="modal-heading-01" class="slds-modal slds-modal_medium slds-fade-in-open" id="termsAndCondition" style="display:none;z-index: 1001;">
+                <div class="slds-modal__container">
+        
+                    <!-- Modal/Popup Header -->
+                    <header class="slds-modal__header">
+                        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick="closeModal()">
+                            <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/utility-sprite/svg/symbols.svg#close')}" />
+                            </svg>
+                            <span class="slds-assistive-text">Cancel and close</span>
+                        </button>
+                        <h1 role="heading" id="modal-heading-01" class="slds-text-heading_medium">{!JSENCODE($Label.DocumentGenerationTermsAndCondition)}</h1>
+                    </header>
+        
+                    <!-- Modal/Popup Body -->
+                    <div class="slds-modal__content slds-p-around_medium">
+                        <p>{!JSENCODE($Label.DocumentGenerationTerms)} <span><a href="https://www.salesforce.com/company/legal/trust-and-compliance-documentation/">{!JSENCODE($Label.DocumentGenerationDocumentationLink)}</a></span>
+                        </p>
+                        <p>
+                            {!JSENCODE($Label.DocumentGenerationTermsContinued)}
+                        </p>
+                    </div>
+        
+                    <!-- Modal/Popup Footer -->
+                    <apex:outputPanel id="termsAndConditionsModal">
+                        <apex:outputPanel layout="none">
+                                <apex:outputPanel rendered="{!NOT(isAccepted)}">
+                                    <apex:outputPanel rendered="{!isDeclined}">
+                                        <div class="slds-modal__footer">
+                                            <button class="slds-button slds-button_neutral" aria-label="Cancel and close" onclick="openDeclineConfirmation()" disabled="disabled">{!JSENCODE($Label.DocumentGenerationIDecline)}</button>
+                                            <button class="slds-button slds-button_brand" onclick="openAgreeConfirmation()">{!JSENCODE($Label.DocumentGenerationIAgree)}</button>
+                                        </div>
+                                    </apex:outputPanel>
+                                    <apex:outputPanel rendered="{!NOT(isDeclined)}">
+                                        <div class="slds-modal__footer">
+                                            <button class="slds-button slds-button_neutral" aria-label="Cancel and close" onclick="openDeclineConfirmation()">{!JSENCODE($Label.DocumentGenerationIDecline)}</button>
+                                            <button class="slds-button slds-button_brand" onclick="openAgreeConfirmation()">{!JSENCODE($Label.DocumentGenerationIAgree)}</button>
+                                        </div>
+                                    </apex:outputPanel>
+                                </apex:outputPanel>
+                                <apex:outputPanel rendered="{!isAccepted}">
+                                    <div class="slds-modal__footer">
+                                    <button class="slds-button slds-button_neutral" aria-label="Cancel and close" onclick="openDeclineConfirmation()" disabled="disabled">{!JSENCODE($Label.DocumentGenerationIDecline)}</button>
+                                    <button class="slds-button slds-button_brand" onclick="openAgreeConfirmation()" disabled="disabled">{!JSENCODE($Label.DocumentGenerationIAgree)}</button>
+                                    </div>
+                                </apex:outputPanel>
+                        </apex:outputPanel>
+                    </apex:outputPanel>
+                </div>
+            </section>
+            <!-- Terms and Conditions No Confirmation Modal -->
+            <section role="dialog" tabindex="0" aria-labelledby="modal-heading-02" class="slds-modal slds-modal_small slds-fade-in-open" id="termsAndConditionDisagreeConfirm" style="display:none;z-index: 1003">
+                <div class="slds-modal__container">
+        
+                    <!-- Modal/Popup Header -->
+                    <header class="slds-modal__header slds-theme_warning">
+                        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick="closeDeclineConfirmModal()">
+                            <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/utility-sprite/svg/symbols.svg#close')}" />
+                            </svg>
+                            <span class="slds-assistive-text">Cancel and close</span>
+                        </button>
+                        <h1 id="modal-heading-02" class="slds-text-heading_medium">{!JSENCODE($Label.DocumentGenerationDeclineAgreement)}</h1>
+                    </header>
+        
+                    <!-- Modal/Popup Body -->
+                    <div class="slds-modal__content slds-p-around_medium">
+                        <p>{!JSENCODE($Label.DocumentGenerationDeclineAgreementDesc)}</p>
+                    </div>
+        
+                    <!-- Modal/Popup Footer -->
+                    <footer class="slds-modal__footer">
+                        <button class="slds-button slds-button_neutral" onclick="closeDeclineConfirmModal()" aria-label="Cancel and close">{!JSENCODE($Label.DocumentGenerationButtonNo)}</button>
+                        <button class="slds-button slds-button_brand" onclick="declineTerm()">{!JSENCODE($Label.DocumentGenerationButtonYes)}</button>
+                    </footer>
+                </div>
+            </section>
+            <!-- Terms and Conditions Yes Confirmation Modal -->
+            <section role="dialog" tabindex="0" aria-labelledby="modal-heading-03" class="slds-modal slds-modal_small slds-fade-in-open" id="termsAndConditionConfirm" style="display:none;z-index: 1003">
+                <div class="slds-modal__container">
+        
+                    <!-- Modal/Popup Header -->
+                    <header class="slds-modal__header">
+                        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick="closeAgreeConfirmModal()">
+                            <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/utility-sprite/svg/symbols.svg#close')}" />
+                            </svg>
+                            <span class="slds-assistive-text">Cancel and close</span>
+                        </button>
+                        <h1 id="modal-heading-03" class="slds-text-heading_medium">{!JSENCODE($Label.DocumentGenerationAcceptAgreement)}</h1>
+                    </header>
+        
+                    <!-- Modal/Popup Body -->
+                    <div class="slds-modal__content slds-p-around_medium">
+                        <p>{!JSENCODE($Label.DocumentGenerationAcceptAgreementDesc)}</p>
+                    </div>
+        
+                    <!-- Modal/Popup Footer -->
+                    <footer class="slds-modal__footer">
+                        <button class="slds-button slds-button_neutral" onclick="closeAgreeConfirmModal()" aria-label="Cancel and close">{!JSENCODE($Label.DocumentGenerationButtonNo)}</button>
+                        <button class="slds-button slds-button_brand" onclick="acceptTerm()">{!JSENCODE($Label.DocumentGenerationButtonYes)}</button>
+                    </footer>
+                </div>
+            </section>
+        <!-- Modal Backdrop -->
+            <div class="slds-backdrop slds-backdrop_open" id="backdrop" style="display:none;z-index: 1000;"></div>
+            <div class="slds-backdrop slds-backdrop_open" id="confirmBackdrop" style="display:none;z-index: 1002"></div>
+            <apex:form id="modalForm">
+                <apex:actionFunction name="callUpdateBannerResponse" action="{!updateDocGenBannerResponse}" reRender="bannerTable,termsAndConditionsModal,toastPanel">
+                    <apex:param name="legalBannerResponse" assignTo="{!docGenBannerResponse}" value=""/>
+                </apex:actionFunction>
+            </apex:form>
+    </html>   
+</apex:page>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>カスタマイズ: 手動キューの品目の ToDo アクション/名前の選択時に起動するカスタム VF ページまたはオムニの URL。</help>
+    <label><!-- Custom Task Execution URL --></label>
+    <name>vlocity_ins__CustomTaskExecutionURL__c</name>
+</CustomFieldTranslation>

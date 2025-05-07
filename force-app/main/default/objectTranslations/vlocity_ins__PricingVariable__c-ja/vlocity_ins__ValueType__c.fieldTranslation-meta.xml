@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ValueType --></label>
+    <name>vlocity_ins__ValueType__c</name>
+    <picklistValues>
+        <masterLabel>Calculated</masterLabel>
+        <translation>計算済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pricing Element</masterLabel>
+        <translation>価格設定要素</translation>
+    </picklistValues>
+</CustomFieldTranslation>

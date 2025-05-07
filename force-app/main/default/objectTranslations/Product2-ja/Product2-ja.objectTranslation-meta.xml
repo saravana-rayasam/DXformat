@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Console Admin Search --></label>
+        <name>vlocity_ins__ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- EligibleProductFields --></label>
+        <name>vlocity_ins__EligibleProductFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- FieldsAvailableInRating --></label>
+        <name>vlocity_ins__FieldsAvailableInRating</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- FieldsAvailableInRules --></label>
+        <name>vlocity_ins__FieldsAvailableInRules</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Formulary Search Product Details --></label>
+        <name>vlocity_ins__FormularySearchProductDetails</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Get Product Spec --></label>
+        <name>vlocity_ins__GetProductSpec</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Insurance Plan Selection --></label>
+        <name>vlocity_ins__InsPlanSelection</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Product --></label>
+        <name>vlocity_ins__NewProduct</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Product Class --></label>
+        <name>vlocity_ins__NewProductClass</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Compare --></label>
+        <name>vlocity_ins__ProductCompareVersion</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ProductDetails --></label>
+        <name>vlocity_ins__ProductDetails</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Structure --></label>
+        <name>vlocity_ins__ProductStructure</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QuoteDetail --></label>
+        <name>vlocity_ins__QuoteDetail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- VersionAwareCatalog FieldSet --></label>
+        <name>vlocity_ins__VersionAwareCatalogFieldSet</name>
+    </fieldSets>
+    <recordTypes>
+        <label><!-- Claim Injury Spec --></label>
+        <name>vlocity_ins__ClaimInjurySpec</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Claim Product --></label>
+        <name>vlocity_ins__ClaimProduct</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Claim Property Spec --></label>
+        <name>vlocity_ins__ClaimPropertySpec</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Class --></label>
+        <name>vlocity_ins__Class</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Coverage Spec --></label>
+        <name>vlocity_ins__CoverageSpec</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Insured Item Spec --></label>
+        <name>vlocity_ins__InsuredItemSpec</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Insured Party Spec --></label>
+        <name>vlocity_ins__InsuredPartySpec</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Product --></label>
+        <name>vlocity_ins__Product</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Product Template --></label>
+        <name>vlocity_ins__ProductTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Program --></label>
+        <name>vlocity_ins__Program</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Rating Fact Spec --></label>
+        <name>vlocity_ins__RatingFactSpec</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Term Spec --></label>
+        <name>vlocity_ins__TermSpec</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- End Date should be greater than or equal to Start Date. --></errorMessage>
+        <name>vlocity_ins__EffectiveDate_Greater_EndDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- End of Life Date should be greater than or equal to Fulfilment Start Date. --></errorMessage>
+        <name>vlocity_ins__Fulfilment_Greater_EndOfLife</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- End of Life Date should be greater than or equal to Selling End Date. --></errorMessage>
+        <name>vlocity_ins__SellingEnd_Greater_EndOfLife</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Selling End Date should be greater than or equal to Fulfilment Start Date. --></errorMessage>
+        <name>vlocity_ins__SellingEnd_Greater_Fulfilment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- End of Life Date should be greater than or equal to Selling Start Date. --></errorMessage>
+        <name>vlocity_ins__SellingStart_Greater_EndOfLife</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fulfilment Start Date should be greater than or equal to Selling Start Date. --></errorMessage>
+        <name>vlocity_ins__SellingStart_Greater_Fulfilment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Selling End Date should be greater than or equal to Selling Start Date. --></errorMessage>
+        <name>vlocity_ins__SellingStart_Greater_SellingEnd</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Version End Date should be greater than or equal to Version Start Date. --></errorMessage>
+        <name>vlocity_ins__VersionStartDate_Greater_VersionEndDate</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- DeepClone --></label>
+        <name>vlocity_ins__DeepClone</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Export --></label>
+        <name>vlocity_ins__Export</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GenerateReport --></label>
+        <name>vlocity_ins__GenerateReport</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NewVersion --></label>
+        <name>vlocity_ins__NewVersion</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PublishToCache --></label>
+        <name>vlocity_ins__PublishToCache</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- XOMSynchronizeCatalog --></label>
+        <name>vlocity_ins__XOMSynchronizeCatalog</name>
+    </webLinks>
+</CustomObjectTranslation>

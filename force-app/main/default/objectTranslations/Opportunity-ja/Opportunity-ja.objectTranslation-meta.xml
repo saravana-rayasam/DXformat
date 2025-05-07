@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- CustomerCommunityFLSCheckFields --></label>
+        <name>vlocity_ins__CustomerCommunityFLSCheckFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- OpportunityDetail --></label>
+        <name>vlocity_ins__OpportunityDetail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- StoryFieldSet --></label>
+        <name>vlocity_ins__StoryFieldSet</name>
+    </fieldSets>
+    <recordTypes>
+        <description><!-- Mobile Phone Opportunity --></description>
+        <label><!-- MobilePhoneOpportunity --></label>
+        <name>vlocity_ins__MobilePhoneOpportunity</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- DeliveryStatus --></label>
+        <name>DeliveryStatus</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateContract --></label>
+        <name>vlocity_ins__CreateContract</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreatingContractAloha --></label>
+        <name>vlocity_ins__CreatingContractAloha</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- DeliveryStatus --></label>
+        <name>vlocity_ins__DeliveryStatus</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GenerateDocumentPDF --></label>
+        <name>vlocity_ins__GenerateDocumentPDF</name>
+    </webLinks>
+</CustomObjectTranslation>

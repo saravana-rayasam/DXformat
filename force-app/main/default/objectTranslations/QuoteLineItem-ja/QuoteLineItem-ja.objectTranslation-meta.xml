@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- CloneQLIFields --></label>
+        <name>vlocity_ins__CloneQLIFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CustomerCommunityFLSCheckFields --></label>
+        <name>vlocity_ins__CustomerCommunityFLSCheckFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- EditableRootItemFields --></label>
+        <name>vlocity_ins__EditableRootItemFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Get QuoteLineItem Spec --></label>
+        <name>vlocity_ins__GetQuoteLineItemSpec</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Insurance Large Group Quoting --></label>
+        <name>vlocity_ins__InsLargeGroupQuoting</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Insurance Small Group Quoting --></label>
+        <name>vlocity_ins__InsSmallGroupQuoting</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- IssuePoicyFromQuoteFields --></label>
+        <name>vlocity_ins__IssuePolicyFromQuoteFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Quote Compare Details --></label>
+        <name>vlocity_ins__QuoteCompareDetails</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Quote Detail --></label>
+        <name>vlocity_ins__QuoteDetail</name>
+    </fieldSets>
+</CustomObjectTranslation>

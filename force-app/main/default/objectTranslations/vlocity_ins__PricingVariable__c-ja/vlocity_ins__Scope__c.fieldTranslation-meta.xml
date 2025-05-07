@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Scope --></label>
+    <name>vlocity_ins__Scope__c</name>
+    <picklistValues>
+        <masterLabel>Group</masterLabel>
+        <translation>グループ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Group Rollup</masterLabel>
+        <translation>グループ積み上げ集計</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Line</masterLabel>
+        <translation>品目</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Master</masterLabel>
+        <translation>マスター</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Master Rollup</masterLabel>
+        <translation>マスター積み上げ集計</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parent</masterLabel>
+        <translation>親</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parent Rollup</masterLabel>
+        <translation>親積み上げ集計</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rollup</masterLabel>
+        <translation>積み上げ集計</translation>
+    </picklistValues>
+</CustomFieldTranslation>

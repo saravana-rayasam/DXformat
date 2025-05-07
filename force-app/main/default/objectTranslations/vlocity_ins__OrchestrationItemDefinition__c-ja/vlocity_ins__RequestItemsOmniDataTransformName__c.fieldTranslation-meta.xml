@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>インテグレーションアダプターによって生成されるコールアウト要求ペイロードの品目ノードのオムニデータ変換 (変換種別) を定義します。</help>
+    <label><!-- Request Items Omni Data Transform Name --></label>
+    <name>vlocity_ins__RequestItemsOmniDataTransformName__c</name>
+</CustomFieldTranslation>

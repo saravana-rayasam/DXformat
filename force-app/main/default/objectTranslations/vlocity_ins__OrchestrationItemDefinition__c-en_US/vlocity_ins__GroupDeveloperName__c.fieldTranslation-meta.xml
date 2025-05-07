@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Specify the name of the Salesforce queue that the manual task is assigned to during orchestration. --></help>
+    <label><!-- Salesforce Queue Name --></label>
+    <name>vlocity_ins__GroupDeveloperName__c</name>
+</CustomFieldTranslation>

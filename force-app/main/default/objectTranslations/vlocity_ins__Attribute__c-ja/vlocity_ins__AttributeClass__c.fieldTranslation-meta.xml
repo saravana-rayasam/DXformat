@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Attribute Class --></label>
+    <name>vlocity_ins__AttributeClass__c</name>
+    <picklistValues>
+        <masterLabel>Coinsurance</masterLabel>
+        <translation><!-- Coinsurance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Copay</masterLabel>
+        <translation><!-- Copay --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deductible</masterLabel>
+        <translation><!-- Deductible --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Limit - Claim Line Item Unit Count</masterLabel>
+        <translation><!-- Limit - Claim Line Item Unit Count --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Limit - Currency</masterLabel>
+        <translation><!-- Limit - Currency --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Limit - Scope Count</masterLabel>
+        <translation><!-- Limit - Scope Count --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Out Of Pocket Max</masterLabel>
+        <translation><!-- Out Of Pocket Max --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

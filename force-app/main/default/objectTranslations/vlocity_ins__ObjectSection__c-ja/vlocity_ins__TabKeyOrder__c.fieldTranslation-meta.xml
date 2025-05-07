@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>左から右へ - タブを右に移動してから下へ
+上から下へ - タブを下に移動してから右へ</help>
+    <label><!-- Tab Key Order --></label>
+    <name>vlocity_ins__TabKeyOrder__c</name>
+    <picklistValues>
+        <masterLabel>Left-Right</masterLabel>
+        <translation>左から右へ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Top-Down</masterLabel>
+        <translation>上から下へ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

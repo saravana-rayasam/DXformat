@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>オーケストレーションプラン定義のスイムレーン表示順。たとえば、3 と指定した場合、オーケストレーションプラン定義は 3 番目のスイムレーンに表示されます。最小は 1 で最大は 99 です。</help>
+    <label><!-- Swimlane Order --></label>
+    <name>vlocity_ins__SwimlaneOrder__c</name>
+</CustomFieldTranslation>

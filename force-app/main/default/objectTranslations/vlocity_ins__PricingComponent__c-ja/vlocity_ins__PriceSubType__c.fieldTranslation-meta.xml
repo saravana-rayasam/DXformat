@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Price Sub-Type --></label>
+    <name>vlocity_ins__PriceSubType__c</name>
+    <picklistValues>
+        <masterLabel>Fee</masterLabel>
+        <translation>手数料</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maintenance</masterLabel>
+        <translation>メンテナンス</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Penalty</masterLabel>
+        <translation>ペナルティ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Professional Installation / Installation</masterLabel>
+        <translation>専門的なインストール / インストール</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Registration</masterLabel>
+        <translation>登録</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Security</masterLabel>
+        <translation>セキュリティ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Standard</masterLabel>
+        <translation>標準</translation>
+    </picklistValues>
+</CustomFieldTranslation>

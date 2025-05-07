@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Service Type --></label>
+    <name>vlocity_ins__ServiceType__c</name>
+    <picklistValues>
+        <masterLabel>Contract DocuSign Service</masterLabel>
+        <translation><!-- Contract DocuSign Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generic DocuSign Service</masterLabel>
+        <translation><!-- Generic DocuSign Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multi-Site Service</masterLabel>
+        <translation><!-- Multi-Site Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VCloudService</masterLabel>
+        <translation><!-- VCloudService --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

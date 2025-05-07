@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Pricing Strategy Type --></label>
+    <name>vlocity_ins__PricingStrategyType__c</name>
+    <picklistValues>
+        <masterLabel>Member Based</masterLabel>
+        <translation><!-- Member Based --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Summary Based</masterLabel>
+        <translation><!-- Summary Based --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

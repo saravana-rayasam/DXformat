@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vlocity UI ファセット</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Console Admin Search --></label>
+        <name>vlocity_ins__ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Facet --></label>
+        <name>vlocity_ins__NewFacet</name>
+    </fieldSets>
+    <nameFieldLabel>ファセットの表示ラベル</nameFieldLabel>
+</CustomObjectTranslation>

@@ -11,13 +11,15 @@
     <enableContentSupportMultiLanguage>false</enableContentSupportMultiLanguage>
     <enableContentWorkspaceAccess>true</enableContentWorkspaceAccess>
     <enableDeleteFileInContentPacks>false</enableDeleteFileInContentPacks>
+    <enableFileIngestToDataCloud>true</enableFileIngestToDataCloud>
     <enableFileShareSetByRecord>false</enableFileShareSetByRecord>
     <enableFilesUsrShareNetRestricted>false</enableFilesUsrShareNetRestricted>
     <enableJPGPreviews>false</enableJPGPreviews>
+    <enableLWCFileUpload>true</enableLWCFileUpload>
     <enableLibraryManagedFiles>false</enableLibraryManagedFiles>
     <enableSiteGuestUserToUploadFiles>false</enableSiteGuestUserToUploadFiles>
     <enableUploadFilesOnAttachments>false</enableUploadFilesOnAttachments>
     <setValidContentTypeForAtchDocDownload>false</setValidContentTypeForAtchDocDownload>
-    <skipContentAssetTriggers>false</skipContentAssetTriggers>
+    <skipContentAssetTriggers>true</skipContentAssetTriggers>
     <skipContentAssetTriggersOnDeploy>true</skipContentAssetTriggersOnDeploy>
 </ContentSettings>

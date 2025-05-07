@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Action Container Version --></help>
+    <label><!-- Action Container Version --></label>
+    <name>vlocity_ins__ActionContainerVersion__c</name>
+</CustomFieldTranslation>

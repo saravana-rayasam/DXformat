@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Difference in milliseconds between previous step unload and current step ready time --></help>
+    <label><!-- UI Step Wait Time --></label>
+    <name>vlocity_ins__StepWaitTime__c</name>
+</CustomFieldTranslation>

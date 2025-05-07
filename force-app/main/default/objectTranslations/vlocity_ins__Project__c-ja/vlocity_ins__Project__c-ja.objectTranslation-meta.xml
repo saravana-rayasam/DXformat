@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>プロジェクト</value>
+    </caseValues>
+    <nameFieldLabel>プロジェクト名</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Module --></label>
+        <name>vlocity_ins__Module</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Work Set --></label>
+        <name>vlocity_ins__WorkSet</name>
+    </recordTypes>
+</CustomObjectTranslation>

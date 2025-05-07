@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Mode --></label>
+    <name>vlocity_ins__Mode__c</name>
+    <picklistValues>
+        <masterLabel>Field</masterLabel>
+        <translation>項目</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Object Type Id</masterLabel>
+        <translation>オブジェクト種別 ID</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Record Type</masterLabel>
+        <translation>レコードタイプ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

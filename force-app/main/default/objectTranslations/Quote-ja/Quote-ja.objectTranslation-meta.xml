@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- CustomerCommunityFLSCheckFields --></label>
+        <name>vlocity_ins__CustomerCommunityFLSCheckFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- FieldsAvailableInRules --></label>
+        <name>vlocity_ins__FieldsAvailableInRules</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- IssuePolicyFromQuoteFields --></label>
+        <name>vlocity_ins__IssuePolicyFromQuoteFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- IssueQuoteModalFields --></label>
+        <name>vlocity_ins__IssueQuoteModalFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QuoteCompareDetails --></label>
+        <name>vlocity_ins__QuoteCompareDetails</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QuoteCompareHeader --></label>
+        <name>vlocity_ins__QuoteCompareHeader</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QuoteDetail --></label>
+        <name>vlocity_ins__QuoteDetail</name>
+    </fieldSets>
+    <recordTypes>
+        <description><!-- A group cart holds the configured offers designed to be applied to all of the members of the associated group. --></description>
+        <label><!-- Group Cart --></label>
+        <name>vlocity_ins__GroupCart</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Large Group Quote --></label>
+        <name>vlocity_ins__LargeGroupQuote</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Quote --></label>
+        <name>vlocity_ins__Quote</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Small Group Quote --></label>
+        <name>vlocity_ins__SmallGroupQuote</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- CreatingContractAloha --></label>
+        <name>vlocity_ins__CreatingContractAloha</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GenerateDocumentPDF --></label>
+        <name>vlocity_ins__GenerateDocumentPDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ProductSelection --></label>
+        <name>vlocity_ins__ProductSelection</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Number of days, the event data from this tracking group will be persisted in the Reporting SObject. Applicable only when Tracking Group Type is Internal. --></help>
+    <label><!-- Max Age In Days --></label>
+    <name>vlocity_ins__MaxAgeInDays__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Test Assert Failure Message --></help>
+    <label><!-- Test Assert Failure Message --></label>
+    <name>vlocity_ins__TestAssertFailureMessage__c</name>
+</CustomFieldTranslation>

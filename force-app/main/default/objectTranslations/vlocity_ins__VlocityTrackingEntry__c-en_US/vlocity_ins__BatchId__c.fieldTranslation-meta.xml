@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Id of the batch calling the VIP --></help>
+    <label><!-- Batch Id --></label>
+    <name>vlocity_ins__BatchId__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field showing that a migration process is applied or not for a specific fulfilment request line. --></help>
+    <label><!-- Is Migrated --></label>
+    <name>vlocity_ins__IsMigrated__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Insurance Async Request --></label>
+    <name>vlocity_ins__InsuranceAsyncBulkRequestId__c</name>
+    <relationshipLabel><!-- Insurance Async Bulk Request Details --></relationshipLabel>
+</CustomFieldTranslation>

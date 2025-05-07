@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Relationship Type --></label>
+    <name>vlocity_ins__RelationshipType__c</name>
+    <picklistValues>
+        <masterLabel>Auto-Add</masterLabel>
+        <translation>自動追加</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Remove</masterLabel>
+        <translation>自動削除</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Replace</masterLabel>
+        <translation>自動置換</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Excludes</masterLabel>
+        <translation>除外</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mini Root</masterLabel>
+        <translation>ミニルート</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Modify Attributes</masterLabel>
+        <translation>属性を変更</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recommends</masterLabel>
+        <translation>推奨</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Relies On</masterLabel>
+        <translation>依存</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Requires</masterLabel>
+        <translation>必須</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Resource</masterLabel>
+        <translation>リソース</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service</masterLabel>
+        <translation>サービス</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specification</masterLabel>
+        <translation>仕様</translation>
+    </picklistValues>
+</CustomFieldTranslation>

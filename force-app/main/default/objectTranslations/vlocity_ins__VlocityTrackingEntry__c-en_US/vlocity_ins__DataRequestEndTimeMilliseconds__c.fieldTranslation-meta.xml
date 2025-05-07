@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Unix epoch milliseconds for Data Request End Time --></help>
+    <label><!-- Data Request End Time in Milliseconds --></label>
+    <name>vlocity_ins__DataRequestEndTimeMilliseconds__c</name>
+</CustomFieldTranslation>

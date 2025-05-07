@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Component referenced by the action e.g. FlexCard, Omniscript, Navigate, Flyout, DataRaptor, Integration Procedure, APEX Class etc. --></help>
+    <label><!-- Action Target Type --></label>
+    <name>vlocity_ins__ActionTargetType__c</name>
+</CustomFieldTranslation>

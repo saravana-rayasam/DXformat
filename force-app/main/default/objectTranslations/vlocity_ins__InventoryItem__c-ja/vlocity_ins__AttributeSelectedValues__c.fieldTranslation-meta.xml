@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この項目は、JSONAttribute V2 機能を有効にした場合に使用されます。JSON 形式でエンコードされたこの品目の属性値が含まれます。JSON の形式に関するドキュメントを参照してください。</help>
+    <label><!-- Attribute Selected Values --></label>
+    <name>vlocity_ins__AttributeSelectedValues__c</name>
+</CustomFieldTranslation>

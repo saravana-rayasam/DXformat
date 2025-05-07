@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Duration Unit of Measure --></label>
+    <name>vlocity_ins__DurationUnitofMeasure__c</name>
+    <picklistValues>
+        <masterLabel>Day</masterLabel>
+        <translation><!-- Day --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Month</masterLabel>
+        <translation><!-- Month --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Time at which we issue a request for data from Card --></help>
+    <label><!-- Data Request Start Time --></label>
+    <name>vlocity_ins__DataRequestStartTime__c</name>
+</CustomFieldTranslation>

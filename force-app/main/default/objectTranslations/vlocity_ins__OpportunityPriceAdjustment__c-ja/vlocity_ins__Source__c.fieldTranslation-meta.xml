@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Source --></label>
+    <name>vlocity_ins__Source__c</name>
+    <picklistValues>
+        <masterLabel>ABP</masterLabel>
+        <translation>ABP</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Agent</masterLabel>
+        <translation>エージェント</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Base</masterLabel>
+        <translation>基本</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Offer</masterLabel>
+        <translation>オファー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Policy Action</masterLabel>
+        <translation>ポリシーアクション</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Promotion</masterLabel>
+        <translation>プロモーション</translation>
+    </picklistValues>
+</CustomFieldTranslation>

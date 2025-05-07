@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Member Type --></label>
+    <name>vlocity_ins__MemberType__c</name>
+    <picklistValues>
+        <masterLabel>Premises</masterLabel>
+        <translation><!-- Premises --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service Account</masterLabel>
+        <translation><!-- Service Account --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service Point</masterLabel>
+        <translation><!-- Service Point --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subscriber</masterLabel>
+        <translation><!-- Subscriber --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

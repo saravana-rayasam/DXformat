@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>vlocity_ins__Type__c</name>
+    <picklistValues>
+        <masterLabel>Attributes Configuration</masterLabel>
+        <translation>属性設定</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability</masterLabel>
+        <translation>使用可能状況</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Configuration</masterLabel>
+        <translation>設定</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Context Rule</masterLabel>
+        <translation>コンテキストルール</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eligibility</masterLabel>
+        <translation>対象資格</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pricing</masterLabel>
+        <translation>価格設定</translation>
+    </picklistValues>
+</CustomFieldTranslation>

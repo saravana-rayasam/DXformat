@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>オーケストレーション中に手動 ToDo を割り当てる Salesforce キューの名前を指定します。</help>
+    <label><!-- Salesforce Queue Name --></label>
+    <name>vlocity_ins__GroupDeveloperName__c</name>
+</CustomFieldTranslation>

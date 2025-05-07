@@ -1,0 +1,3 @@
+<apex:page standardController="Campaign" showHeader="false" sidebar="false" extensions="vlocity_ins.CampaignActionsDisplayController">
+  <!-- Deprecated Page-->
+</apex:page>

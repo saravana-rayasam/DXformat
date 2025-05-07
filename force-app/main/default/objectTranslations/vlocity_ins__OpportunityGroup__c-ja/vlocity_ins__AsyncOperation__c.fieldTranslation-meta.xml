@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Async Operation --></label>
+    <name>vlocity_ins__AsyncOperation__c</name>
+    <picklistValues>
+        <masterLabel>Apply To Group</masterLabel>
+        <translation>グループに適用</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price</masterLabel>
+        <translation>価格</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price And Validate</masterLabel>
+        <translation>価格と検証</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validate</masterLabel>
+        <translation>検証</translation>
+    </picklistValues>
+</CustomFieldTranslation>

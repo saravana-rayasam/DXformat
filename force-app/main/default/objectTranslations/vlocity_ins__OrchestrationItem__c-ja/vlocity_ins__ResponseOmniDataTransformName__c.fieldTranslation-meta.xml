@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>インテグレーションアダプターを通じて外部システムによって提供される応答ペイロードのオムニデータ変換 (読み込み種別) を定義します。</help>
+    <label><!-- Response Omni Data Transform Name --></label>
+    <name>vlocity_ins__ResponseOmniDataTransformName__c</name>
+</CustomFieldTranslation>

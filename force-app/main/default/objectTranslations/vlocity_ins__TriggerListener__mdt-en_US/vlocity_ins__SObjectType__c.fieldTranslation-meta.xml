@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sobject type of the trigger --></label>
+    <name>vlocity_ins__SObjectType__c</name>
+    <picklistValues>
+        <masterLabel>Attribute Assignment</masterLabel>
+        <translation><!-- Attribute Assignment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product</masterLabel>
+        <translation><!-- Product --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product2</masterLabel>
+        <translation><!-- Product2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vlocity Object or Object Type</masterLabel>
+        <translation><!-- Vlocity Object or Object Type --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vlocity Picklist</masterLabel>
+        <translation><!-- Vlocity Picklist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vlocity Picklist Value</masterLabel>
+        <translation><!-- Vlocity Picklist Value --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

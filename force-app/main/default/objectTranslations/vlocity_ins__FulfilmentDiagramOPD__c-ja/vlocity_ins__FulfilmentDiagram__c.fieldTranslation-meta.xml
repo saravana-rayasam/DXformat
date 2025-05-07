@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>詳細履行ダイアグラム OPD に関連付けられた親履行ダイアグラム。</help>
+    <label><!-- Fulfilment Diagram --></label>
+    <name>vlocity_ins__FulfilmentDiagram__c</name>
+    <relationshipLabel><!-- Fulfilment Diagram OPDs --></relationshipLabel>
+</CustomFieldTranslation>

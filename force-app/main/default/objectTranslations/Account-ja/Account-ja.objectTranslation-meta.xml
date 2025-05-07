@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- InteractionFieldList --></label>
+        <name>vlocity_ins__InteractionFieldList</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ProviderGroupNetworkSearch --></label>
+        <name>vlocity_ins__ProviderGroupNetworkSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Segment List Export --></label>
+        <name>vlocity_ins__SegmentListExport</name>
+    </fieldSets>
+    <recordTypes>
+        <label><!-- rcpicklist --></label>
+        <name>rcpicklist</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Agency/Brokerage --></label>
+        <name>vlocity_ins__AgencyBrokerage</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Business Account --></label>
+        <name>vlocity_ins__Business_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Carrier --></label>
+        <name>vlocity_ins__Carrier</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Group --></label>
+        <name>vlocity_ins__Group</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Group Division --></label>
+        <name>vlocity_ins__GroupDivision</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MobilePhoneAccount --></label>
+        <name>vlocity_ins__MobilePhoneAccount</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Pharmacy --></label>
+        <name>vlocity_ins__Pharmacy</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Provider --></label>
+        <name>vlocity_ins__Provider</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Provider Location --></label>
+        <name>vlocity_ins__ProviderLocation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Standard Account --></label>
+        <name>vlocity_ins__StandardAccount</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CalculateAttributes --></label>
+        <name>vlocity_ins__CalculateAttributes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateGroup --></label>
+        <name>vlocity_ins__CreateGroup</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateHousehold --></label>
+        <name>vlocity_ins__CreateHousehold</name>
+    </webLinks>
+</CustomObjectTranslation>

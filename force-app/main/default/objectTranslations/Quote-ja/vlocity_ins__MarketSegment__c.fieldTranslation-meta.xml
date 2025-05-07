@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Market Segment --></label>
+    <name>vlocity_ins__MarketSegment__c</name>
+    <picklistValues>
+        <masterLabel>ASO (Admin Services Only)</masterLabel>
+        <translation><!-- ASO (Admin Services Only) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Government</masterLabel>
+        <translation><!-- Government --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Individual</masterLabel>
+        <translation><!-- Individual --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Large Group</masterLabel>
+        <translation><!-- Large Group --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medicare</masterLabel>
+        <translation><!-- Medicare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mid Sized Group</masterLabel>
+        <translation><!-- Mid Sized Group --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Small Group</masterLabel>
+        <translation><!-- Small Group --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

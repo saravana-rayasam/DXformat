@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Job Type --></label>
+    <name>vlocity_ins__JobType__c</name>
+    <picklistValues>
+        <masterLabel>Cleanup Tenant Resources</masterLabel>
+        <translation><!-- Cleanup Tenant Resources --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Create Contract</masterLabel>
+        <translation><!-- Create Contract --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delete Template</masterLabel>
+        <translation><!-- Delete Template --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generate DOCX</masterLabel>
+        <translation><!-- Generate DOCX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generate DOCX (Async)</masterLabel>
+        <translation><!-- Generate DOCX (Async) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generate PDF</masterLabel>
+        <translation><!-- Generate PDF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generate PDF (Async)</masterLabel>
+        <translation><!-- Generate PDF (Async) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generate PPTX</masterLabel>
+        <translation><!-- Generate PPTX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generate PPTX (Async)</masterLabel>
+        <translation><!-- Generate PPTX (Async) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Publish Template</masterLabel>
+        <translation><!-- Publish Template --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Publish Template (Async)</masterLabel>
+        <translation><!-- Publish Template (Async) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Republish Template</masterLabel>
+        <translation><!-- Republish Template --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Republish Template (Async)</masterLabel>
+        <translation><!-- Republish Template (Async) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Send Envelope</masterLabel>
+        <translation><!-- Send Envelope --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subscribe Tenant to Service</masterLabel>
+        <translation><!-- Subscribe Tenant to Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unsubscribe Tenant from Service</masterLabel>
+        <translation><!-- Unsubscribe Tenant from Service --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

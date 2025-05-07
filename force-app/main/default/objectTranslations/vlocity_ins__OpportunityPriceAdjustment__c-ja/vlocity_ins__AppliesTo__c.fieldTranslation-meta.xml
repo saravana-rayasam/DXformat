@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Applies To --></label>
+    <name>vlocity_ins__AppliesTo__c</name>
+    <picklistValues>
+        <masterLabel>Account</masterLabel>
+        <translation>取引先</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Asset</masterLabel>
+        <translation>納入商品</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contract</masterLabel>
+        <translation>契約</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multiple Assets</masterLabel>
+        <translation>複数の納入商品</translation>
+    </picklistValues>
+</CustomFieldTranslation>

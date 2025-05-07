@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- For one-to-many, the field in the target object that references the Id of the source object. For many-to-many, the field in the relationship object that references the Id of the target object. --></help>
+    <label><!-- Target Object Field --></label>
+    <name>vlocity_ins__TargetObjectField__c</name>
+</CustomFieldTranslation>

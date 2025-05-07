@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vlocity 選択リスト値</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Picklist Items --></label>
+        <name>vlocity_ins__PicklistItems</name>
+    </fieldSets>
+    <nameFieldLabel>表示ラベル</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Effective Until Date should be greater than or equal to Effective From Date. --></errorMessage>
+        <name>vlocity_ins__EffectiveFrom_Greater_EffectiveUntil</name>
+    </validationRules>
+</CustomObjectTranslation>

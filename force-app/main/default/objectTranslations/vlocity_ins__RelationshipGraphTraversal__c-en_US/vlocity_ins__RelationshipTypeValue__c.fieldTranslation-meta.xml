@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Id of the object that defines the relationship type. For the Vlocity Party Model, this is the Id of a PartyRelationshipType__c object. Required if Relationship Type Field is defined. --></help>
+    <label><!-- Relationship Type Value --></label>
+    <name>vlocity_ins__RelationshipTypeValue__c</name>
+</CustomFieldTranslation>

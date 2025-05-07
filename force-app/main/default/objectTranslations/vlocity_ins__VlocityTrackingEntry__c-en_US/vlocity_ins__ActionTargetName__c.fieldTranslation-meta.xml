@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Name or Type/Subtype/Lang of the DataRaptor, Integration Procedure, APEX Class, etc that was invoked by an Omniscript action. --></help>
+    <label><!-- Action Target Name --></label>
+    <name>vlocity_ins__ActionTargetName__c</name>
+</CustomFieldTranslation>
