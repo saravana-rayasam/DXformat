@@ -9,6 +9,10 @@
         <name>Testing_rollback</name>
     </customLabels>
     <customLabels>
+        <label>Translation22</label>
+        <name>Translation_2</name>
+    </customLabels>
+    <customLabels>
         <label></label>
         <name>test1</name>
     </customLabels>

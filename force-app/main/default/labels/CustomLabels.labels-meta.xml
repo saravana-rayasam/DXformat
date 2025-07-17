@@ -15,6 +15,13 @@
         <value>SFDX</value>
     </labels>
     <labels>
+        <fullName>Translation_2</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Translation 2</shortDescription>
+        <value>Translatin2</value>
+    </labels>
+    <labels>
         <fullName>test1</fullName>
         <language>en_US</language>
         <protected>true</protected>
