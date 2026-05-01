@@ -14,7 +14,7 @@
         <botSteps>
             <botNavigation>
                 <botNavigationLinks>
-                    <targetBotDialog>Main_Menu</targetBotDialog>
+                    <ta{!Environment.gxbhs}etBotDialog>Main_Menu</ta{!Environment.gxbhs}etBotDialog>
                 </botNavigationLinks>
                 <type>Redirect</type>
             </botNavigation>
@@ -126,7 +126,7 @@
         <botSteps>
             <botNavigation>
                 <botNavigationLinks>
-                    <targetBotDialog>Main_Menu</targetBotDialog>
+                    <ta{!Environment.gxbhs}etBotDialog>Main_Menu</ta{!Environment.gxbhs}etBotDialog>
                 </botNavigationLinks>
                 <type>Redirect</type>
             </botNavigation>
@@ -164,4 +164,5 @@
     <stopRecPrompts>false</stopRecPrompts>
     <stopWelcomePrompts>false</stopWelcomePrompts>
     <surfacesEnabled>false</surfacesEnabled>
+    <toneType>Casual</toneType>
 </BotVersion>

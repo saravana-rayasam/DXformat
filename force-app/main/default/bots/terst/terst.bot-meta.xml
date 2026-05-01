@@ -8,15 +8,15 @@
     <botSource>None</botSource>
     <contextVariables>
         <contextVariableMappings>
-            <SObjectType>VoiceCall</SObjectType>
-            <fieldName>VoiceCall.Id</fieldName>
+            <SObjectType>MessagingEndUser</SObjectType>
+            <fieldName>MessagingEndUser.ContactId</fieldName>
             <messageType>EmbeddedMessaging</messageType>
         </contextVariableMappings>
         <dataType>Id</dataType>
-        <description>This variable may also be referred to as VoiceCall Id</description>
-        <developerName>VoiceCallId</developerName>
-        <includeInPrompt>true</includeInPrompt>
-        <label>Voice Call Id</label>
+        <description>This variable may also be referred to as MessagingEndUser ContactId</description>
+        <developerName>ContactId</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>Contact Id</label>
     </contextVariables>
     <contextVariables>
         <contextVariableMappings>
@@ -44,15 +44,15 @@
     </contextVariables>
     <contextVariables>
         <contextVariableMappings>
-            <SObjectType>MessagingEndUser</SObjectType>
-            <fieldName>MessagingEndUser.ContactId</fieldName>
+            <SObjectType>VoiceCall</SObjectType>
+            <fieldName>VoiceCall.Id</fieldName>
             <messageType>EmbeddedMessaging</messageType>
         </contextVariableMappings>
         <dataType>Id</dataType>
-        <description>This variable may also be referred to as MessagingEndUser ContactId</description>
-        <developerName>ContactId</developerName>
-        <includeInPrompt>false</includeInPrompt>
-        <label>Contact Id</label>
+        <description>This variable may also be referred to as VoiceCall Id</description>
+        <developerName>VoiceCallId</developerName>
+        <includeInPrompt>true</includeInPrompt>
+        <label>Voice Call Id</label>
     </contextVariables>
     <description>A bot from scratch.</description>
     <label>Test Copy</label>
