@@ -7,7 +7,7 @@
         <picklist>vlocity_ins__EmploymentStatus__pc</picklist>
         <values>
             <fullName>Employed Full-Time</fullName>
-            <default>true</default>
+            <default>false</default>
         </values>
         <values>
             <fullName>Employed Part-Time</fullName>
